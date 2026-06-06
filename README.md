@@ -97,7 +97,7 @@ npm run build
 ## 🎥 Video demostrativo
 
 > 📺 **[Ver video en YouTube →](https://youtu.be/4-JnbRKFsfY)**
-
+> 🔗 **[Ver aplicación en vivo →](https://ghibli-react-one.vercel.app)**
 ## 📋 Propiedades mostradas por película
 
 1. **Título** (`title`) y título original (`original_title`)
