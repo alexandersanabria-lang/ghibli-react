@@ -1,4 +1,4 @@
-# 🎬 Ghibli Films
+#  Ghibli Films
 
 > Aplicación web React que consume la API pública de Studio Ghibli y muestra el catálogo completo de películas con título, director, año, puntuación y descripción.
 
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Descripción
+##  Descripción
 
 **Ghibli Films** es una SPA (Single Page Application) desarrollada con React 19 y Vite que consume la [API pública de Studio Ghibli](https://ghibliapi.vercel.app/films). Permite explorar todas las películas del estudio, buscar y filtrar resultados, y guardar favoritos de forma persistente con `localStorage`.
 
@@ -71,70 +71,56 @@ ghibli-react/
 
 ## 🛠️ Pasos para ejecutar el proyecto
 
-### 1. Clonar el repositorio
+**1. Clonar el repositorio**
 ```bash
-git clone https://github.com/TU_USUARIO/ghibli-react.git
+git clone https://github.com/alexandersanabria-lang/ghibli-react
 cd ghibli-react
 ```
 
-### 2. Instalar dependencias
+**2. Instalar dependencias**
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
-### 3. Iniciar el servidor de desarrollo
+**3. Iniciar el servidor de desarrollo**
 ```bash
 npm run dev
 ```
-
 La app estará disponible en: **http://localhost:5173**
 
-### 4. Compilar para producción
+**4. Compilar para producción**
 ```bash
 npm run build
 ```
 
----
-
-## 🌐 Deploy
-
-> 🔗 **[Ver aplicación en vivo →](#)** *(reemplazar con link de Vercel/Netlify)*
-
-Pasos para desplegar en Vercel:
-1. Hacer push al repositorio en GitHub
-2. Importar el proyecto en [vercel.com](https://vercel.com)
-3. Vercel detecta Vite automáticamente → clic en **Deploy**
-
----
 
 ## 🎥 Video demostrativo
 
-> 📺 **[Ver video en YouTube →](#)** *(reemplazar con link del video)*
-
-El video muestra:
-- La app en funcionamiento con rutas `/` y `/entities`
-- Consumo de la API de Ghibli
-- Funcionalidad de favoritos y notificaciones
-- El repositorio y el deploy
-
----
+> 📺 **[Ver video en YouTube →](https://youtu.be/4-JnbRKFsfY)**
 
 ## 📋 Propiedades mostradas por película
 
-En `/entities` se muestran al menos **3 propiedades** por entidad:
 1. **Título** (`title`) y título original (`original_title`)
 2. **Director** (`director`)
 3. **Año de estreno** (`release_date`)
-4. **Puntuación Rotten Tomatoes** (`rt_score`)
+4. **Puntuación** (`rt_score`)
 5. **Duración** (`running_time`)
 6. **Descripción** (`description`)
 
+## 📸 Capturas
+
+### Home
+![Home](./screenshots/home.png)
+
+### Películas destacadas
+![Home Films](./screenshots/home-films.png)
+
+### Catálogo de películas
+![Entities](./screenshots/entities.png)
+
+### Favoritos y notificaciones
+![Toast](./screenshots/toast.png)
+
+
 ---
-
-## 👥 Equipo
-
-Proyecto académico — **Tecsup Equipo 3**
-
----
-
 *API: [https://ghibliapi.vercel.app](https://ghibliapi.vercel.app) — Studio Ghibli Films*
